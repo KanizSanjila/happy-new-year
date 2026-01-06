@@ -14,13 +14,22 @@ header{
     justify-content: end;
 }
 
+.btn{
+     background-color: #FFFFFF;
+    color: #F15B22;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
 header p{
     color: #474747;
     line-height: 18px;
 }
 
-.btn{
-    background-color: #F15B22;
+.btn1{
+     background-color: #F15B22;
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
@@ -28,6 +37,10 @@ header p{
     font-size: 18px;
     font-weight: 600px;
     align-items: end;
+}
+
+.btn{
+   
 
 }
 
@@ -63,7 +76,7 @@ header p{
 
 .icon{
     display: flex;
-    justify-content: space-between;
+   
 }
 
 .positive{
@@ -73,4 +86,51 @@ header p{
     max-width: 1140px;
     margin: 130px auto;
     height: 300px;
+}
+
+footer{
+    background-color: #151414;
+    margin: 0;
+    height: 400px;
+    color: #F8F8F8;
+
+}
+
+.footer-container{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.text-footer{
+    width: 485px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-footer{
+    width: 325px;
+   margin:130px 229px 0 330px ;
+    gap: 31px;
+} 
+
+.input-footer input{
+    background-color: #151414;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-footer button{
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 10px;
 }
