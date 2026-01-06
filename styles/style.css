@@ -1,0 +1,76 @@
+
+.font-work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: end;
+}
+
+header p{
+    color: #474747;
+    line-height: 18px;
+}
+
+.btn{
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600px;
+    align-items: end;
+
+}
+
+.text-banner{
+    max-width: 525px;
+}
+
+.text-banner h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.failures-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 130px auto;
+    border: 2px solid black;
+}
+
+.failures-container img{
+    /* background-color: pink;
+    border: 50%; */
+}
+
+.my-plan{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid navy;
+   text-align: center;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.positive{
+    background-image: url('../images/watch.png') , url('../images/gradient3.png');
+    /* background-position:100% ,left right ; */
+    border: 2px solid navy;
+    max-width: 1140px;
+    margin: 130px auto;
+    height: 300px;
+}
